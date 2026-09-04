@@ -98,7 +98,7 @@ function entrar() {
 
     {/* Versão */}
     <View style={styles.versao}>
-    <Text style={styles.textoVersao}>v5.7.0</Text>
+    <Text style={styles.textoVersao}>v 5.7.0</Text>
   </View>
 
   
@@ -178,7 +178,7 @@ senhaContainer: {
 },
 
   botao: {
-    width: "100%",
+    width: "50%",
     height: 58,
     backgroundColor:  "#1814ff",
     borderRadius: 10,
@@ -211,10 +211,10 @@ senhaContainer: {
   versao: {
    borderWidth: 1,
     borderColor:  "rgba(100, 180, 255, 0.65)",
-    borderRadius: 20,
-    paddingHorizontal: 15,
+    borderRadius: 15,
+    paddingHorizontal: 12,
     paddingVertical: 7,
-    marginTop: 2,
+    marginTop: 0,
   },
   
   textoVersao: {
